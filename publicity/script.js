@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (navigator.share) {
         // For mobile devices with Web Share API
         await navigator.share({
-          title: 'pk Support Contacts',
+          title: 'Keith Support Contacts',
           text: 'Check out these contacts from Keith Support',
           url: '/download',
         });
